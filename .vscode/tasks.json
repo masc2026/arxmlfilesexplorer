@@ -1,0 +1,60 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "${workspaceFolder}/src/ARXCheck/ARXCheck.sln",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary;ForceNoAlign"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "publish",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "publish",
+        "${workspaceFolder}/src/ARXCheck/ARXCheck.sln",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary;ForceNoAlign"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "watch",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "watch",
+        "run",
+        "--project",
+        "${workspaceFolder}/src/ARXCheck/ARXCheck.sln"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+        "label": "preLaunch",
+        "dependsOn": ["build", "copyConfigFiles", "copyExampleFiles"],
+        "dependsOrder": "sequence",
+        "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "copyConfigFiles",
+      "type": "shell",
+      "command": "cp -R ${workspaceFolder}/build/config/* ${workspaceFolder}/src/ARXCheck/ARXCheck/bin/Debug/net8.0",
+      "problemMatcher": "$msCompile"
+    }
+    ,
+    {
+      "label": "copyExampleFiles",
+      "type": "shell",
+      "command": "cp -R ${workspaceFolder}/build/examples/* ${workspaceFolder}/src/ARXCheck/ARXCheck/bin/Debug/net8.0",
+      "problemMatcher": "$msCompile"
+    }
+  ]
+}

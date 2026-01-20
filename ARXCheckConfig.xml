@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="ARXCheck.config">
+    <xsdmap>
+        <mapping>
+            <xsd alias="AUTOSAR_00042.xsd">
+                <xsd name="AUTOSAR_00042.XSD"/>
+            </xsd>
+            <xsd alias="AUTOSAR_00043.xsd">
+                <xsd name="AUTOSAR_00043.XSD"/>
+                <xsd name="AUTOSAR_4-3-0.XSD"/>
+                <xsd name="AUTOSAR_4-3-1.XSD"/>
+                <xsd name="AUTOSAR_4-0-3.XSD"/>
+            </xsd>
+            <xsd alias="AUTOSAR_00044.xsd">
+                <xsd name="AUTOSAR_00044.XSD"/>
+            </xsd>
+            <xsd alias="AUTOSAR_00045.xsd">
+                <xsd name="AUTOSAR_00045.XSD"/>
+            </xsd>
+            <xsd alias="AUTOSAR_00046.xsd">
+                <xsd name="AUTOSAR_00046.XSD"/>
+            </xsd>
+            <xsd alias="AUTOSAR_00047.xsd">
+                <xsd name="AUTOSAR_00047.XSD"/>
+            </xsd>
+            <xsd alias="AUTOSAR_00048.xsd">
+                <xsd name="AUTOSAR_00048.XSD"/>
+            </xsd>
+            <xsd alias="AUTOSAR_00049.xsd">
+                <xsd name="AUTOSAR_00049.XSD"/>
+            </xsd>
+            <xsd alias="AUTOSAR_00050.xsd">
+                <xsd name="AUTOSAR_00050.XSD"/>
+            </xsd>
+            <xsd alias="AUTOSAR_00051.xsd">
+                <xsd name="AUTOSAR_00051.XSD"/>
+            </xsd>
+            <xsd alias="AUTOSAR_00052.xsd">
+                <xsd name="AUTOSAR_00052.XSD"/>
+            </xsd>
+            <xsd alias="AUTOSAR_00053.xsd">
+                <xsd name="AUTOSAR_00053.XSD"/>
+            </xsd>
+        </mapping>
+    </xsdmap>
+</config>

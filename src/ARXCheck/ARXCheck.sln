@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARXCheck", "ARXCheck\ARXCheck.csproj", "{DA1CC9D1-0AE5-4992-B597-25C15ED280C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA1CC9D1-0AE5-4992-B597-25C15ED280C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA1CC9D1-0AE5-4992-B597-25C15ED280C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA1CC9D1-0AE5-4992-B597-25C15ED280C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA1CC9D1-0AE5-4992-B597-25C15ED280C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D29DA68E-BC18-49D8-BE1B-C7C75E8EE6FA}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$0.TextStylePolicy = $2
+		$2.inheritsSet = null
+		$2.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $3
+		$3.scope = text/x-csharp
+		$0.TextStylePolicy = $4
+		$4.FileWidth = 80
+		$4.TabsToSpaces = True
+		$4.scope = text/plain
+		$0.StandardHeader = $5
+		$0.VersionControlPolicy = $6
+		$0.TextStylePolicy = $7
+		$7.inheritsSet = null
+		$7.scope = text/microsoft-resx
+		$0.XmlFormattingPolicy = $8
+		$8.inheritsSet = null
+		$8.scope = text/microsoft-resx
+		$0.TextStylePolicy = $9
+		$9.inheritsSet = null
+		$9.scope = application/xml
+		$0.XmlFormattingPolicy = $10
+		$10.scope = application/xml
+	EndGlobalSection
+EndGlobal

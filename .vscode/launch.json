@@ -1,0 +1,107 @@
+{
+  // Verwendet IntelliSense zum Ermitteln möglicher Attribute.
+  // Zeigen Sie auf vorhandene Attribute, um die zugehörigen Beschreibungen anzuzeigen.
+  // Weitere Informationen finden Sie unter https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Beispiel 1",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "preLaunch",
+      "program": "${workspaceFolder}/src/ARXCheck/ARXCheck/bin/Debug/net8.0/ARXCheck.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/src/ARXCheck/ARXCheck",
+      "console": "internalConsole",
+      "stopAtEntry": false
+    },
+    {
+      "name": "Beispiel 2",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "preLaunch",
+      "program": "${workspaceFolder}/src/ARXCheck/ARXCheck/bin/Debug/net8.0/ARXCheck.dll",
+      "args": ["--version"],
+      "cwd": "${workspaceFolder}/src/ARXCheck/ARXCheck",
+      "console": "internalConsole",
+      "stopAtEntry": false
+    },
+    {
+      "name": "Beispiel 3",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "preLaunch",
+      "program": "${workspaceFolder}/src/ARXCheck/ARXCheck/bin/Debug/net8.0/ARXCheck.dll",
+      "args": ["--arxml","${workspaceFolder}/src/ARXCheck/ARXCheck/bin/Debug/net8.0/sample04.arxml"],
+      "cwd": "${workspaceFolder}/src/ARXCheck/ARXCheck",
+      "console": "internalConsole",
+      "stopAtEntry": false
+    },
+    {
+      "name": "Beispiel 4",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "preLaunch",
+      "program": "${workspaceFolder}/src/ARXCheck/ARXCheck/bin/Debug/net8.0/ARXCheck.dll",
+      "args": ["-c","${workspaceFolder}/ARXCheckConfig.xml","--arxml","${workspaceFolder}/src/ARXCheck/ARXCheck/bin/Debug/net8.0/sample03.arxml"],
+      "cwd": "${workspaceFolder}/src/ARXCheck/ARXCheck",
+      "console": "internalConsole",
+      "stopAtEntry": false
+    },
+    {
+      "name": "Beispiel 5",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "preLaunch",
+      "program": "${workspaceFolder}/src/ARXCheck/ARXCheck/bin/Debug/net8.0/ARXCheck.dll",
+      "args": ["-s","AUTOSAR_00045.xsd","--arxml","${workspaceFolder}/src/ARXCheck/ARXCheck/bin/Debug/net8.0/sample01.arxml"],
+      "cwd": "${workspaceFolder}/src/ARXCheck/ARXCheck",
+      "console": "internalConsole",
+      "stopAtEntry": false
+    },
+    {
+      "name": "Beispiel 6",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "preLaunch",
+      "program": "${workspaceFolder}/src/ARXCheck/ARXCheck/bin/Debug/net8.0/ARXCheck.dll",
+      "args": ["-p=","1","-s","AUTOSAR_00048.xsd","--arxml","${workspaceFolder}/src/ARXCheck/ARXCheck/bin/Debug/net8.0/sample02.arxml"],
+      "cwd": "${workspaceFolder}/src/ARXCheck/ARXCheck",
+      "console": "internalConsole",
+      "stopAtEntry": false
+    },
+    {
+      "name": "Beispiel 7",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "preLaunch",
+      "program": "${workspaceFolder}/src/ARXCheck/ARXCheck/bin/Debug/net8.0/ARXCheck.dll",
+      "args": ["-p=","2","-s","AUTOSAR_00048.xsd","--arxml","${workspaceFolder}/src/ARXCheck/ARXCheck/bin/Debug/net8.0/sample02.arxml"],
+      "cwd": "${workspaceFolder}/src/ARXCheck/ARXCheck",
+      "console": "internalConsole",
+      "stopAtEntry": false
+    },
+    {
+      "name": "Beispiel 8",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "preLaunch",
+      "program": "${workspaceFolder}/src/ARXCheck/ARXCheck/bin/Debug/net8.0/ARXCheck.dll",
+      "args": ["-v","--arxml","${workspaceFolder}/src/ARXCheck/ARXCheck/bin/Debug/net8.0/sample05.arxml"],
+      "cwd": "${workspaceFolder}/src/ARXCheck/ARXCheck",
+      "console": "internalConsole",
+      "stopAtEntry": false
+    },
+    {
+      "name": "Beispiel 9",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "preLaunch",
+      "program": "${workspaceFolder}/src/ARXCheck/ARXCheck/bin/Debug/net8.0/ARXCheck.dll",
+      "args": ["-v","--arxml","${workspaceFolder}/src/ARXCheck/ARXCheck/bin/Debug/net8.0/sample06.arxml"],
+      "cwd": "${workspaceFolder}/src/ARXCheck/ARXCheck",
+      "console": "internalConsole",
+      "stopAtEntry": false
+    }
+  ]
+}
